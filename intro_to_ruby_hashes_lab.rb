@@ -3,7 +3,7 @@ def new_hash
 end
 
 def my_hash
-  { "School" => "is cool" }
+  { "house" => "bus" }
 end
 
 def pioneer
@@ -17,16 +17,6 @@ end
 def my_hash_creator(key, value)
   {key => value}
 end
-
-def read_from_hash(hash, key)
-  hash[key]
-end
-
-def update_counting_hash(hash, key)
-  # given a hash an a key as parameters, return an updated hash
-hash{:count =>6}
-end
-
 
 def read_from_hash(hash, key)
   hash[key]
