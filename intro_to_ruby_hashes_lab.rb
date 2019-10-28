@@ -11,16 +11,15 @@ def pioneer
 end
 
 def id_generator
-  hash{name:'Steve'}
-  return nil 
+{name:4}
 end
 
 def my_hash_creator(key, value)
-  hash[name,"steve"]
+  {key => value}
 end
 
 def read_from_hash(hash, key)
-  hash "hello"
+  hash[key]
 end
 
 def update_counting_hash(hash, key)
@@ -28,14 +27,6 @@ def update_counting_hash(hash, key)
 hash{:count =>6}
 end
 
-
-def id_generator
-  {id: 4}
-end
-
-def my_hash_creator(key, value)
-  {key => value}
-end
 
 def read_from_hash(hash, key)
   hash[key]
